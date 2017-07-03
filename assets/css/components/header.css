@@ -1,0 +1,24 @@
+.header {
+  background-color:#EFEFF8;
+  color:#4A5F83;
+  padding-top:15px;
+  padding-bottom:0px;
+}
+
+.header .header-icon {
+  display:inline-block;
+  vertical-align:top;
+  font-size:18px;
+  font-weight:bold;
+  margin-right:10px;
+}
+
+.header .header-body {
+  display:inline-block;
+}
+
+.header .header-body h4 {
+  font-size:2.8rem;
+  color:#1D3764;
+}
+

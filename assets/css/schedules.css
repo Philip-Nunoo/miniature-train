@@ -1,0 +1,9 @@
+.schedules .header .dropdown {
+  display:inline-block;
+  margin-right:5px;
+}
+
+.schedules .header .dropdown:last-child {
+  margin:0px;
+}
+

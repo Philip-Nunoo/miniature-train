@@ -1,0 +1,9 @@
+body {
+  font-family:Calibri, "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar .container-fluid {
+  padding-left:40px;
+  padding-right:40px;
+}
+

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>petra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/colors.css">
+    <link rel="stylesheet" href="assets/css/components/buttons.css">
+    <link rel="stylesheet" href="assets/css/components/header.css">
+    <link rel="stylesheet" href="assets/css/components/navbar.css">
+    <link rel="stylesheet" href="assets/css/components/tables.css">
+    <link rel="stylesheet" href="assets/css/helpers.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/schedules.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/typography.css">
+</head>
+
+<body class="schedules">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">Petra </a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Wayne Waters</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation"><a href="#">Profile </a></li>
+                            <li role="presentation"><a href="#">Billings </a></li>
+                            <li role="presentation"><a href="#">Settings </a></li>
+                            <li role="presentation"><a href="#">Logout </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-9 pl-0 pr-0" style="border-right:1px solid #EAEAEA;">
+                    <div class="header pl-2 pb-2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="header-icon"><i class="glyphicon glyphicon-menu-hamburger"></i></div>
+                                    <div class="header-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4>Schedules </h4></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="dropdown">
+                                                    <button class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">All Schedules</button>
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li role="presentation"><a href="#">All Schedules</a></li>
+                                                        <li role="presentation"><a href="#">Not Valid Schedules</a></li>
+                                                        <li role="presentation"><a href="#">Valid Schedules</a></li>
+                                                        <li role="presentation"><a href="#">Matched Schedules</a></li>
+                                                        <li role="presentation"><a href="#">Unmatched Schedules</a></li>
+                                                        <li role="presentation"><a href="#">Trashed Schedules</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <button class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">For: Date</button>
+                                                    <ul class="dropdown-menu" role="menu"></ul>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <button class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Received: Date</button>
+                                                    <ul class="dropdown-menu" role="menu"></ul>
+                                                </div>
+                                                <button class="btn btn-primary btn-xs btn-round pt-bg-purple" type="button">Search </button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 mt-1 small">
+                                                <div><span class="pt-color-purple bold-1">52 </span><span>schedules </span></div>
+                                                <div><span class="pt-color-purple bold-1">4 </span><span>not validated</span></div>
+                                                <div><span class="pt-color-purple bold-1">1 </span><span>pending responses</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="table-responsive">
+    <table class="table table-condensed">
+        <thead class="table-primary">
+            <tr>
+                <th class="col-md-2">
+                    <div style="float: right">
+                        <div class="checkbox-input" style="text-align: right;">
+                            <input type="checkbox" id="allCheckbox"/>
+                            <label for="allCheckbox"></label>
+                        </div>
+                    </div>
+                </th>
+                <th>
+                    Company
+                    <small class="sub-title">Petra ID</small>
+                </th>
+                <th>
+                    Scheme
+                    <small class="sub-title">Tier</small>
+                </th>
+                <th>
+                    Amount
+                    <small class="sub-title">&nbsp;</small>
+                </th>
+                <th>
+                    Period &amp; Type
+                    <small class="sub-title">Timer</small>
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div style="float: right">
+                        <div class="checkbox-input">
+                            <input type="checkbox" />
+                            <label for=""></label>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    Plexzap
+                    <small class="sub-title pt-color-g">P184220</small>
+                </td>
+                <td>Petra Plus</td>
+                <td><b>45,058.49</b></td>
+                <td>Nov 2017 - Feb 2017</td>
+            </tr>
+            <tr>
+                <td>
+                    <div style="float: right">
+                    <div class="checkbox-input">
+                        <input type="checkbox" />
+                        <label for=""></label>
+                    </div>
+                    </div>
+                </td>
+                <td>
+                    Bioholding
+                    <small class="sub-title pt-color-g">PID34210</small>
+                </td>
+                <td>Petra Advantage</td>
+                <td><b>80,373</b></td>
+                <td>Feb 2017</td>
+            </tr>
+            <tr class="disabled">
+                <td>
+                    <div style="float: right">
+                    <div class="checkbox-input">
+                        <input type="checkbox" />
+                        <label for=""></label>
+                    </div>
+                    </div>
+                </td>
+                <td>
+                    FinHigh
+                    <small class="sub-title pt-color-g">PID34210</small>
+                </td>
+                <td>Petra Opportunity</td>
+                <td><b>10,591</b></td>
+                <td>Nov 2017 - Feb 2017</td>
+            </tr>
+            <tr class="warning">
+                <td>
+                    <div style="float: right">
+                    <div class="checkbox-input">
+                        <input type="checkbox" />
+                        <label for=""></label>
+                    </div>
+                    </div>
+                </td>
+                <td>
+                    Rantouch
+                    <small class="sub-title pt-color-g">PID98291</small>
+                </td>
+                <td>Petra Opportunity</td>
+                <td><b>12,457</b></td>
+                <td>Feb 2017</td>
+            </tr>
+            <tr class="warning">
+                <td>
+                    <div style="float: right">
+                    <div class="checkbox-input">
+                        <input type="checkbox" />
+                        <label for=""></label>
+                    </div>
+                    </div>
+                </td>
+                <td>
+                    Sunamplex
+                    <small class="sub-title pt-color-g">PID58124</small>
+                </td>
+                <td>Petra Opportunity</td>
+                <td><b>84,943</b></td>
+                <td>Oct 2017 - Feb 2017</td>
+            </tr>
+            <tr class="warning">
+                <td>
+                    <div style="float: right">
+                    <div class="checkbox-input">
+                        <input type="checkbox" />
+                        <label for=""></label>
+                    </div>
+                    </div>
+                </td>
+                <td>
+                    Donware
+                    <small class="sub-title pt-color-g">PID98291</small>
+                </td>
+                <td>Petra Opportunity</td>
+                <td><b>61,541</b></td>
+                <td>Oct 2017 - Jan 2017</td>
+            </tr>
+            <tr class="warning">
+                <td>
+                    <div style="float: right">
+                    <div class="checkbox-input">
+                        <input type="checkbox" />
+                        <label for=""></label>
+                    </div>
+                    </div>
+                </td>
+                <td>
+                    Newex
+                    <small class="sub-title pt-color-g">PID71385</small>
+                </td>
+                <td>Petra Opportunity</td>
+                <td><b>18,103</b></td>
+                <td>Nov 2017 - Feb 2017</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center" style="position:absolute;top:0px;bottom:0px;left:0px;right:0px;padding-top:50%;width:100px;margin:auto;"><i class="glyphicon glyphicon-folder-close" style="font-size:22px;"></i>
+                        <h4 style="font-size:16px;">Please Select A Schedule </h4></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

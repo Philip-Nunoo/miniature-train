@@ -1,0 +1,109 @@
+.btn {
+  padding:6px 15px;
+  font-size:14px;
+  line-height:1.57142857;
+  border-radius:3px;
+}
+
+.btn-round {
+  border-radius:1000px;
+}
+
+.btn-squared {
+  border-radius:0;
+}
+
+.btn.active, .btn:active {
+  background-image:none;
+  outline:0;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+
+.btn-danger, .btn-default, .btn-info, .btn-primary, .btn-success, .btn-warning {
+  text-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+
+.btn-default {
+  color:#fff;
+  background-color:#9A9A9A;
+  border:none;
+}
+
+.btn-default:hover {
+  color:#FFF;
+  background-color:#B3B3B3;
+}
+
+.btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default {
+  color:#FFF;
+  background-color:#B3B3B3;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover {
+  color:#FFF;
+  background-color:#878787;
+}
+
+.btn[disabled] {
+  color:#fff;
+  background-color:#E9E9E9;
+}
+
+.btn-primary {
+  color:#fff;
+  background-color:#F8A000;
+  border:none;
+}
+
+.btn-primary:hover {
+  color:#FFF;
+  background-color:#F7BB48;
+}
+
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+  color:#FFF;
+  background-color:#F7BB48;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+  color:#fff;
+  background-color:#F7BB48;
+}
+
+:hov .cls element.style {
+}
+
+border-radius.less:8 .btn-group > .btn:first-child {
+  margin-left:0;
+}
+
+bootstrap.css:3661 .btn-toolbar .btn, .btn-toolbar .btn-group, .btn-toolbar .input-group {
+  float:left;
+}
+
+bootstrap.css:3637 .btn-group-vertical > .btn, .btn-group > .btn {
+  position:relative;
+  float:left;
+}
+
+.btn-group-xs > .btn, .btn-xs {
+  padding:1px 5px;
+  font-size:12px;
+  line-height:1.5;
+}
+
+.btn-group-lg > .btn, .btn-lg {
+  padding:10px 16px;
+  font-size:18px;
+  line-height:1.3333333;
+}
+
+.btn-group-sm > .btn, .btn-sm {
+  padding:5px 10px;
+  font-size:12px;
+  line-height:1.5;
+}
+

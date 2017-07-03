@@ -1,0 +1,70 @@
+.table {
+  font-weight:normal;
+}
+
+.table thead {
+  background-color:#EEEEF7;
+}
+
+.table thead.table-primary {
+  background-color:#E9E9E9;
+}
+
+.table thead.table-primary th {
+  color:#000;
+  font-weight:600;
+}
+
+.table th {
+  color:#6481B3;
+  font-weight:normal;
+  vertical-align:initial;
+}
+
+.table th > .sub-title, .table td > .sub-title {
+  display:block;
+  font-weight:normal;
+}
+
+.table td > .sub-title {
+  font-size:75%;
+}
+
+.table input[type=checkbox] {
+  visibility:hidden;
+}
+
+.table .checkbox-input {
+  position:relative;
+  width:12px;
+  height:12px;
+}
+
+.table .checkbox-input label {
+  cursor:pointer;
+  position:absolute;
+  width:12px;
+  height:12px;
+  top:0;
+  left:0;
+  background:#FFF;
+  border:1px solid #F89822;
+  border-radius:2px;
+}
+
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+  border:1px solid #F7F7F7;
+}
+
+.table > tbody > tr > td {
+  border-left:2px solid #fff;
+}
+
+.table > tbody > tr.warning > td, .table > tbody > tr.warning > th, .table > tbody > tr > td.warning, .table > tbody > tr > th.warning, .table > tfoot > tr.warning > td, .table > tfoot > tr.warning > th, .table > tfoot > tr > td.warning, .table > tfoot > tr > th.warning, .table > thead > tr.warning > td, .table > thead > tr.warning > th, .table > thead > tr > td.warning, .table > thead > tr > th.warning {
+  background-color:rgba( 255, 246, 232, 0.5);
+}
+
+.table > tbody > tr.disabled {
+  background:repeating-linear-gradient(45deg, transparent 0px, transparent 4px , #EAEAEA 6px);
+}
+
